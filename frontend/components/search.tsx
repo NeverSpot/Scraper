@@ -40,7 +40,7 @@ const Search = () => {
 
     try {
       const response = await fetch(
-        `https://wb6nvu1fl1.execute-api.ap-south-1.amazonaws.com/dev/api/reviews?page=${myUrl}`
+        `https://0n8y61qj78.execute-api.ap-south-1.amazonaws.com/dev/product-review-ec2-trigger?page=${myUrl}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
