@@ -65,7 +65,7 @@ export default function Home() {
         <Link
           isExternal
           className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href="https://github.com/fru2/Product_Review_Scraper"
+          href="https://github.com/NeverSpot/Scraper"
         >
           <GithubIcon size={20} />
           GitHub
